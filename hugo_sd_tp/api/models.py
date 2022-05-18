@@ -9,3 +9,6 @@ class Artigo(models.Model):
     anoPublicacao = models.CharField(max_length=4)
     url = models.CharField(max_length=2048)
 
+    def __str__(self):
+        return self.titulo
+
