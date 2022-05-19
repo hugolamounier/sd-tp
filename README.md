@@ -2,7 +2,7 @@
 
 ### Pré-requisitos
 1. [Python](https://www.python.org/downloads/)
-2. [Pip] (https://pip.pypa.io/en/stable/installation/)
+2. [Pip](https://pip.pypa.io/en/stable/installation/)
 3. [PostgreSQL](https://www.postgresql.org/download/)
 
 ** É recomendado a execução do python em [venv](https://docs.python.org/3/tutorial/venv.html);
