@@ -15,9 +15,10 @@ Para instalar as dependências:
 ```sh
 $ pip install -r requirements.txt
 ```
+** Caso tenha problema ao instalar a dependência do psycopg2, tente instalar o psycopg2-binary
 
 ### Como executar
-1. Crie um schema para a aplicação no seu servidor PostgreSQL
+1. Crie um banco de dados para a aplicação no seu servidor PostgreSQL
 2. Acesse o diretório "hugo_sd_tp" dentro da pasta do projeto clonado
 3. Altere o as credênciais do banco de dados no arquivo "settings.py" para as credênciais do seu sevidor PostgreSQL.
 4. Execute o comando para executar as migrations:
