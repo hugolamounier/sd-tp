@@ -3,11 +3,11 @@ from rest_framework import viewsets
 from .serializers import ArtigoSerializer
 from .models import Artigo
 from django.db.models import Q
-from rest_framework.permissions import IsAuthenticated
+from hugo_sd_tp.roles import RolesPermission
 
 
 class ArtigoViewSet(viewsets.ModelViewSet):
-    permission_classes = (IsAuthenticated,)
+    permission_classes = (RolesPermission,)
     queryset = Artigo.objects.all().order_by('titulo')
     serializer_class = ArtigoSerializer
 
